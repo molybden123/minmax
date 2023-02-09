@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Läs in CSV filen
-df = pd.read_csv('data/Automobile_data.csv')
+df = pd.read_csv('Automobile_data.csv')
 
 # Skapa en funktion som normaliserar datan i CSV filen
 def normalize(df):
