@@ -22,5 +22,5 @@ def normalize(df):
 df2 = normalize(df)
 
 # Spara den nya normaliserade filen
-df2.to_csv('data/Automobile_data_normalized')
+df2.to_csv('Automobile_data_normalized')
 
